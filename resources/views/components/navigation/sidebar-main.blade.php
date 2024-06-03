@@ -22,8 +22,11 @@
                                 Product</a></li>
                     </x-li-sub>
                     <x-li-sub icon="far fa-tags" title="Category">
-                        <li class="dropdown-item"><a href="audience.html" class="sidebar-link">Target
-                                Audience</a></li>
+                        <li class="dropdown-item"><a href="{{ route('category.index') }}" class="sidebar-link">List
+                                Category </a></li>
+                        {{-- <li class="dropdown-item"><a href="{{ route('product.create') }}"
+                                class="sidebar-link">Create
+                                Category</a></li> --}}
                     </x-li-sub>
                 </ul>
             </li>

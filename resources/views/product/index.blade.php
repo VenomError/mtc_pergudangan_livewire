@@ -1,10 +1,5 @@
 @extends('layouts.dashboard')
 
-@section('breadCump')
-<div class="dashboard-breadcrumb mb-25">
-    <h2>Product</h2>
-</div>
-@endsection
 
 @section('content')
 <div class="row">

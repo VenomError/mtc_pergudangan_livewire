@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" data-menu="vertical" data-nav-size="nav-default">
+
 <head>
     @include('components.public.meta')
     <title>eCommerce Dashboard | Digiboard</title>
     @include('components.public.link')
 </head>
 
-<body class="body-padding body-p-top light-theme">
+<body class="body-padding body-p-top dark-theme">
     <!-- preloader start -->
     <div class="preloader d-none">
         <div class="loader">
@@ -35,8 +36,13 @@
 
     <!-- main content start -->
     <div class="main-content">
-        @yield('breadCump')
+        @if (isset($breadCrump))
+        <div class="dashboard-breadcrumb mb-25">
+            <h2>{{ $breadCrump }}</h2>
+            @yield('breadCrump')
+        </div>
 
+        @endif
         @yield('content')
         <!-- footer start -->
         <div class="footer">

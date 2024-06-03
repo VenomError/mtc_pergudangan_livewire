@@ -9,3 +9,8 @@
 <script src="{{ asset('assets/vendor/js/moment.min.js') }}"></script>
 <script src="{{ asset('assets/vendor/js/daterangepicker.js') }}"></script>
 <script src="{{ asset('assets/js/dashboard.js') }}"></script>
+
+<script src="{{ asset('assets/vendor/js/jquery.uploader.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/js/select2.min.js') }}"></script>
+<script src="{{ asset('assets/js/select2-init.js') }}"></script>
+<script src="{{ asset('assets/js/category.js') }}"></script>

@@ -33,7 +33,7 @@ class Login extends Component
         }
         session()->regenerate();
 
-        flash()->success('Login Success');
+        flash()->option('position', 'bottom-right')->success("welcome " . Auth::user()->name);
         return redirect()->intended('/');
     }
 }

@@ -8,3 +8,8 @@
 {{-- dashboard --}}
 <link rel="stylesheet" href="{{ asset('assets/vendor/css/jquery.dataTables.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/vendor/css/daterangepicker.css') }}">
+
+<link rel="stylesheet" href="{{ asset('assets/vendor/css/jquery.uploader.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/vendor/css/select2.min.css') }}">
+
+@livewireStyles
