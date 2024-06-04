@@ -12,4 +12,6 @@
 <link rel="stylesheet" href="{{ asset('assets/vendor/css/jquery.uploader.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/vendor/css/select2.min.css') }}">
 
-@livewireStyles
+<link rel="stylesheet" href="{{ asset('assets/vendor/css/bootstrap-material-datetimepicker.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/vendor/css/material-icon.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/vendor/css/selectize.css') }}">

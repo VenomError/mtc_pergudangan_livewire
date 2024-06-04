@@ -21,7 +21,7 @@ Route::middleware("auth")->group(function () {
     // Product
     Route::controller(ProductController::class)->name('product.')->prefix('product')->group(function () {
         Route::get('/', 'index')->name('index');
-        Route::get('/create', 'index')->name('create');
+        Route::get('/create', 'create')->name('create');
     });
 
     // Dashboard

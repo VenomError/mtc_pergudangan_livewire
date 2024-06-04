@@ -14,3 +14,7 @@
 <script src="{{ asset('assets/vendor/js/select2.min.js') }}"></script>
 <script src="{{ asset('assets/js/select2-init.js') }}"></script>
 <script src="{{ asset('assets/js/category.js') }}"></script>
+
+<script src="{{ asset('assets/vendor/js/ckeditor.js') }}"></script>
+<script src="{{ asset('assets/vendor/js/bootstrap-material-datetimepicker.js') }}"></script>
+<script src="{{ asset('assets/js/add-product.js') }}"></script>

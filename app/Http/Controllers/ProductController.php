@@ -22,7 +22,11 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        $var = [
+            'title' => 'Create Product',
+            'breadCrump' => 'Create Product'
+        ];
+        return view('product.create', $var);
     }
 
     /**

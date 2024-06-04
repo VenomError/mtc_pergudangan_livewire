@@ -17,10 +17,12 @@ return new class extends Migration
             $table->decimal('price', 10, 2);
             $table->string('brand');
             $table->string('stok')->default(0);
+            // $table->json('tags')->nullable();
             $table->timestamps();
         });
         Schema::table('products', function (Blueprint $table) {
-            $table->foreignId('category_id')->constrained();
+            $table->foreignId('category_id')->constrained()->onUpdate('cascade')
+                ->onDelete('cascade');
         });
     }
 

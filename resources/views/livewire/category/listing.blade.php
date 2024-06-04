@@ -1,9 +1,9 @@
 <div class="col-12">
     <div class="card">
         <div class="card-header ">
-            <div class="row">
+            <div class="row mt-1">
                 <div class="col-4">
-                    <select class="form-control form-control-sm" wire:model.live='perPage' wire:change='resetPage()'>
+                    <select class="form-control " wire:model.live='perPage' wire:change='resetPage()'>
                         <option value="10">10 </option>
                         <option value="25">25 </option>
                         <option value="50">50 </option>
@@ -11,9 +11,11 @@
                     </select>
                 </div>
                 <div class="col-8 ">
-                    <input type="text" class="form-control form-control-sm " placeholder="search"
-                        wire:model.live.debounce='search' wire:input.debounce='resetPage()'>
-
+                    <div class="input-group-with-icon  mb-20">
+                        <span class="input-icon"><i class="fa-light fa-magnifying-glass"></i></span>
+                        <input type="search" placeholder="Search category" wire:model.live.debounce='search'
+                            wire:input.debounce='resetPage()'>
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,7 +3,13 @@
 
 <head>
     @include('components.public.meta')
-    <title>eCommerce Dashboard | Digiboard</title>
+    <title>
+        @if (isset($title))
+        {{ Str::ucfirst($title) . ' - ' . env('APP_NAME') }}
+        @else
+        {{ env('APP_NAME') }}
+        @endif
+    </title>
     @include('components.public.link')
 </head>
 
