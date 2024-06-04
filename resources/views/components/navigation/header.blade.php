@@ -4,12 +4,12 @@
             <div class="main-logo d-lg-block d-none">
                 <div class="logo-big">
                     <a href="index.html">
-                        <img src="assets/images/logo-black.png" alt="Logo">
+                        <img src="{{ asset('assets/images/logo-black.png') }}" alt="Logo">
                     </a>
                 </div>
                 <div class="logo-small">
                     <a href="index.html">
-                        <img src="assets/images/logo-small.png" alt="Logo">
+                        <img src="{{ asset('assets/images/logo-small.png') }}" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <div class="col-4 d-lg-none">
             <div class="mobile-logo">
                 <a href="index.html">
-                    <img src="assets/images/logo-black.png" alt="Logo">
+                    <img src="{{ asset('assets/images/logo-black.png') }}" alt="Logo">
                 </a>
             </div>
         </div>
@@ -53,7 +53,7 @@
                                     <li>
                                         <a href="#" class="d-flex">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar.png') }}" alt="image">
                                             </div>
                                             <div class="msg-txt">
                                                 <span class="name">Archer Cowie</span>
@@ -66,7 +66,7 @@
                                     <li>
                                         <a href="#" class="d-flex">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-2.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-2.png') }}" alt="image">
                                             </div>
                                             <div class="msg-txt">
                                                 <span class="name">Cody Rodway</span>
@@ -79,7 +79,7 @@
                                     <li>
                                         <a href="#" class="d-flex">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-3.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-3.png') }}" alt="image">
                                             </div>
                                             <div class="msg-txt">
                                                 <span class="name">Zane Bain</span>
@@ -104,7 +104,7 @@
                                     <li>
                                         <a href="#" class="d-flex align-items-center">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar.png') }}" alt="image">
                                             </div>
                                             <div class="notification-txt">
                                                 <span class="notification-icon text-primary"><i
@@ -116,7 +116,7 @@
                                     <li>
                                         <a href="#" class="d-flex align-items-center">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-2.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-2.png') }}" alt="image">
                                             </div>
                                             <div class="notification-txt">
                                                 <span class="notification-icon text-success"><i
@@ -128,7 +128,7 @@
                                     <li>
                                         <a href="#" class="d-flex align-items-center">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-3.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-3.png') }}" alt="image">
                                             </div>
                                             <div class="notification-txt">
                                                 <span class="notification-icon"><i class="fa-solid fa-share"></i></span>
@@ -139,7 +139,7 @@
                                     <li>
                                         <a href="#" class="d-flex align-items-center">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-4.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-4.png') }}" alt="image">
                                             </div>
                                             <div class="notification-txt">
                                                 <span class="notification-icon text-primary"><i
@@ -151,7 +151,7 @@
                                     <li>
                                         <a href="#" class="d-flex align-items-center">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-5.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-5.png') }}" alt="image">
                                             </div>
                                             <div class="notification-txt">
                                                 <span class="notification-icon text-success"><i
@@ -163,7 +163,7 @@
                                     <li>
                                         <a href="#" class="d-flex align-items-center">
                                             <div class="avatar">
-                                                <img src="assets/images/avatar-6.png" alt="image">
+                                                <img src="{{ asset('assets/images/avatar-6.png') }}" alt="image">
                                             </div>
                                             <div class="notification-txt">
                                                 <span class="notification-icon"><i class="fa-solid fa-share"></i></span>
@@ -234,7 +234,7 @@
                 <button class="header-btn theme-settings-btn d-lg-none"><i class="fa-light fa-gear"></i></button>
                 <div class="header-btn-box profile-btn-box">
                     <button class="profile-btn" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="assets/images/admin.png" alt="image">
+                        <img src="{{ asset('assets/images/admin.png') }}" alt="image">
                     </button>
                     <ul class="dropdown-menu profile-dropdown-menu">
                         <li>
